@@ -1,6 +1,8 @@
 // import BouncingCircle from "./components/BouncingCircle";
 // import SkewedRectangle from "./components/SkewedRectangle";
-import SkewStateExmaple from "./components/SkewStateExmaple";
+// import ComplexAnimation from "./components/ComplexAnimation";
+import SequnetialAnimation from "./components/SequnetialAnimation";
+// import SkewStateExmaple from "./components/SkewStateExmaple";
 // import SpinningIcon from "./components/SpinningIcon";
 // import Box from "./components/Box";
 
@@ -11,7 +13,9 @@ const App = () => {
       {/* <BouncingCircle /> */}
       {/* <SpinningIcon /> */}
       {/* <SkewedRectangle /> */}
-      <SkewStateExmaple />
+      {/* <SkewStateExmaple /> */}
+      {/* <ComplexAnimation /> */}
+      <SequnetialAnimation />
     </div>
   );
 };
