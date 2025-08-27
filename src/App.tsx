@@ -1,5 +1,6 @@
 // import BouncingCircle from "./components/BouncingCircle";
-import SkewedRectangle from "./components/SkewedRectangle";
+// import SkewedRectangle from "./components/SkewedRectangle";
+import SkewStateExmaple from "./components/SkewStateExmaple";
 // import SpinningIcon from "./components/SpinningIcon";
 // import Box from "./components/Box";
 
@@ -9,7 +10,8 @@ const App = () => {
       {/* <Box /> */}
       {/* <BouncingCircle /> */}
       {/* <SpinningIcon /> */}
-      <SkewedRectangle />
+      {/* <SkewedRectangle /> */}
+      <SkewStateExmaple />
     </div>
   );
 };
