@@ -5,7 +5,7 @@ const BouncingCircle = () => {
     <div>
       <motion.div
         className="box"
-        animate={{ y: [0, -100, 0] }}
+        animate={{ y: [0, -200, 0] }}
         transition={{ duration: 0.8, repeat: Infinity, ease: easeInOut }}
       />
     </div>
