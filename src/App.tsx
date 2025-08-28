@@ -3,7 +3,11 @@
 // import ComplexAnimation from "./components/ComplexAnimation";
 // import FadingComponent from "./components/FadingComponent";
 // import HoverButton from "./components/HoverButton";
+import Accordion from "./components/Accordion";
 import HoverBuutonSlide from "./components/HoverBuutonSlide";
+import Modal from "./components/Modal";
+import Notification from "./components/Notification";
+import ResponsiveButton from "./components/ResponsiveButton";
 // import SequnetialAnimation from "./components/SequnetialAnimation";
 // import Sidebar from "./components/Sidebar";
 // import SlideInFromTheLeft from "./components/SlideInFromTheLeft";
@@ -28,7 +32,11 @@ const App = () => {
       {/* <Sidebar /> */}
       {/* <SidebarComponent /> */}
       {/* <HoverButton /> */}
-      <HoverBuutonSlide />
+      {/* <HoverBuutonSlide /> */}
+      {/* <Modal /> */}
+      {/* <ResponsiveButton /> */}
+      {/* <Accordion /> */}
+    <Notification/>
     </div>
   );
 };
