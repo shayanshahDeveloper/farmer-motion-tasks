@@ -13,14 +13,18 @@ import Notification from "./components/Notification";
 import PulsingEffect from "./components/PulsingEffect";
 import ResponsiveButton from "./components/ResponsiveButton";
 import WaveEffect from "./components/WaveEffect";
+import BoxAnimaion from "./newComponents/BoxAnimaion";
+import DarggableBox from "./newComponents/DarggableBox";
 import FadeIn from "./newComponents/FadeIn";
 import Live from "./newComponents/Live";
+import ScaleButtonMotionValue from "./newComponents/ScaleButtonMotionValue";
 import SlidingMenu from "./newComponents/SlidingMenu";
 import StaggerGridLayout from "./newComponents/StaggerGridLayout";
 import StaggerImageGalllery from "./newComponents/StaggerImageGalllery";
 import StaggerList from "./newComponents/StaggerList";
 import StaggerTextReveal from "./newComponents/StaggerTextReveal";
 import SwitchToggle from "./newComponents/SwitchToggle";
+import WhileInView from "./newComponents/WhileInView";
 // import SequnetialAnimation from "./components/SequnetialAnimation";
 // import Sidebar from "./components/Sidebar";
 // import SlideInFromTheLeft from "./components/SlideInFromTheLeft";
@@ -31,7 +35,7 @@ import SwitchToggle from "./newComponents/SwitchToggle";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-[150rem] flex items-center justify-center">
       {/* <Box /> */}
       {/* <BouncingCircle /> */}
       {/* <SpinningIcon /> */}
@@ -62,7 +66,11 @@ const App = () => {
       {/* <StaggerImageGalllery /> */}
       {/* <StaggerGridLayout /> */}
       {/* <StaggerTextReveal /> */}
-      <Live />
+      {/* <Live /> */}
+      {/* <DarggableBox /> */}
+      {/* <ScaleButtonMotionValue /> */}
+      {/* <BoxAnimaion /> */}
+      <WhileInView />
     </div>
   );
 };
