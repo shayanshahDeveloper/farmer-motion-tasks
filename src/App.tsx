@@ -13,6 +13,14 @@ import Notification from "./components/Notification";
 import PulsingEffect from "./components/PulsingEffect";
 import ResponsiveButton from "./components/ResponsiveButton";
 import WaveEffect from "./components/WaveEffect";
+import FadeIn from "./newComponents/FadeIn";
+import Live from "./newComponents/Live";
+import SlidingMenu from "./newComponents/SlidingMenu";
+import StaggerGridLayout from "./newComponents/StaggerGridLayout";
+import StaggerImageGalllery from "./newComponents/StaggerImageGalllery";
+import StaggerList from "./newComponents/StaggerList";
+import StaggerTextReveal from "./newComponents/StaggerTextReveal";
+import SwitchToggle from "./newComponents/SwitchToggle";
 // import SequnetialAnimation from "./components/SequnetialAnimation";
 // import Sidebar from "./components/Sidebar";
 // import SlideInFromTheLeft from "./components/SlideInFromTheLeft";
@@ -46,7 +54,15 @@ const App = () => {
       {/* <PulsingEffect /> */}
       {/* <ChangingColor /> */}
       {/* <WaveEffect /> */}
-      <AnimatedBackground />
+      {/* <AnimatedBackground /> */}
+      {/* <FadeIn /> */}
+      {/* <SlidingMenu /> */}
+      {/* <SwitchToggle /> */}
+      {/* <StaggerList /> */}
+      {/* <StaggerImageGalllery /> */}
+      {/* <StaggerGridLayout /> */}
+      {/* <StaggerTextReveal /> */}
+      <Live />
     </div>
   );
 };
