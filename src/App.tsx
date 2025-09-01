@@ -14,6 +14,7 @@ import PulsingEffect from "./components/PulsingEffect";
 import ResponsiveButton from "./components/ResponsiveButton";
 import WaveEffect from "./components/WaveEffect";
 import BoxAnimaion from "./newComponents/BoxAnimaion";
+import CardFlip from "./newComponents/CardFlip";
 import DarggableBox from "./newComponents/DarggableBox";
 import FadeIn from "./newComponents/FadeIn";
 import Live from "./newComponents/Live";
@@ -70,7 +71,8 @@ const App = () => {
       {/* <DarggableBox /> */}
       {/* <ScaleButtonMotionValue /> */}
       {/* <BoxAnimaion /> */}
-      <WhileInView />
+      {/* <WhileInView /> */}
+      <CardFlip />
     </div>
   );
 };
