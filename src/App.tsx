@@ -17,6 +17,7 @@ import BoxAnimaion from "./newComponents/BoxAnimaion";
 import CardFlip from "./newComponents/CardFlip";
 import DarggableBox from "./newComponents/DarggableBox";
 import FadeIn from "./newComponents/FadeIn";
+import InteractiveCards from "./newComponents/InteractiveCards";
 import Live from "./newComponents/Live";
 import ScaleButtonMotionValue from "./newComponents/ScaleButtonMotionValue";
 import SlidingMenu from "./newComponents/SlidingMenu";
@@ -25,6 +26,7 @@ import StaggerImageGalllery from "./newComponents/StaggerImageGalllery";
 import StaggerList from "./newComponents/StaggerList";
 import StaggerTextReveal from "./newComponents/StaggerTextReveal";
 import SwitchToggle from "./newComponents/SwitchToggle";
+import TimeLineAnimation from "./newComponents/TimeLineAnimation";
 import WhileInView from "./newComponents/WhileInView";
 // import SequnetialAnimation from "./components/SequnetialAnimation";
 // import Sidebar from "./components/Sidebar";
@@ -72,7 +74,9 @@ const App = () => {
       {/* <ScaleButtonMotionValue /> */}
       {/* <BoxAnimaion /> */}
       {/* <WhileInView /> */}
-      <CardFlip />
+      {/* <CardFlip /> */}
+      {/* <TimeLineAnimation /> */}
+      <InteractiveCards />
     </div>
   );
 };
